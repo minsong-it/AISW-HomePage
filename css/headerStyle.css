@@ -1,0 +1,113 @@
+/* 글꼴 import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#wrap {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+/* header */
+
+header{
+    position: relative;
+    height: 160px;
+}
+
+header .logo_box{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+header .logo{
+    position: absolute;
+    float: right;
+}
+
+header .logo img{
+    width: 250px;
+    height: auto;
+}
+
+header .top_nav{
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+
+header .top_nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header .top_nav li{
+    float: left;
+    border: 0;
+}
+
+header .top_nav li a{
+    color: rgb(218, 218, 218);
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+
+header .inner{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    top: 60px;
+    right: 80px;
+}
+
+.inner ul {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu {
+    display: inline-block;
+    position: relative;
+}
+
+.sub-menu a{
+    color: #fff;
+    display: block;
+    font-size: 21px;
+    padding: 20px 75px; 
+    text-decoration: none;
+}
+
+.sub-menu:hover ul{
+    display: block;
+}
+
+.sub-menu ul{
+    display: none;
+    position: absolute;
+    width: 230px;
+    z-index: 2;
+}
+
+.sub-menu ul li{
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.881);
+}
+
+.sub-menu ul li a{
+    display: block;
+    padding: 10px 14px;
+}
+
+.sub-menu ul li a:hover{
+    color: rgb(42, 162, 218)
+}
