@@ -72,9 +72,13 @@ img.img-slider span{
 #main-2 .container{
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.con {
-    height: 600px;
+.playList_div {
+    margin: 5% 0 5% 18%;
+    justify-content: space-between;
 }
